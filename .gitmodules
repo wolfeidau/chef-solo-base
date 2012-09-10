@@ -1,0 +1,3 @@
+[submodule "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = https://github.com/opscode-cookbooks/openssl.git

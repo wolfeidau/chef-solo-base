@@ -1,0 +1,9 @@
+{
+  "bamboo": {
+    "version": "4.1.2",
+    "db_user": "bamboo",
+    "db_url": "jdbc:postgresql://localhost:5432/bamboo",
+    "home": "/var/atlassian/application-data/bamboo"
+  },
+  "run_list":["recipe[main]"]
+}

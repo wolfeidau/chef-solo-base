@@ -1,0 +1,8 @@
+<Context path="/bamboo">
+  <Resource name="jdbc/BambooDS" auth="Container" type="javax.sql.DataSource"
+            username="<%= @node[:bamboo][:db_user] %>"
+            password="<%= @node[:bamboo][:db_password] %>"
+            driverClassName="org.postgresql.Driver"
+            url="<%= @node[:bamboo][:db_url] %>"
+           />
+</Context>
